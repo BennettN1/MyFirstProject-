@@ -1,14 +1,13 @@
-//
-//  main.cpp
-//  Project 1 - Lab 1.cpp
-//
-//  Created by Nicholas Bennett on 8/25/21.
-//
-
+/*
+ Nick Bennett
+ C++ 2021
+ Lab 1 and Hello World
+ Figuring out the basics of writing code and understanding what is going on inside of each piece of data that is used
+ */
+ 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
+int main()
+{    // insert code here...
     std::cout << "Hello, World!\n";
-    return 0;
 }
