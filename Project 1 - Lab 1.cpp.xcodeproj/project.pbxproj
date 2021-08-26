@@ -10,6 +10,16 @@
 		734B476226D70DD60009A65E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 734B476126D70DD60009A65E /* main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		734B477F26D71E7A0009A65E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734B477B26D71E790009A65E /* MyFirstProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 734B477126D71E790009A65E;
+			remoteInfo = MyFirstProject;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		734B475C26D70DD60009A65E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -25,6 +35,7 @@
 /* Begin PBXFileReference section */
 		734B475E26D70DD60009A65E /* Project 1 - Lab 1.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 1 - Lab 1.cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734B476126D70DD60009A65E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		734B477B26D71E790009A65E /* MyFirstProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MyFirstProject.xcodeproj; path = MyFirstProject/MyFirstProject.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +68,18 @@
 		734B476026D70DD60009A65E /* Project 1 - Lab 1.cpp */ = {
 			isa = PBXGroup;
 			children = (
+				734B477B26D71E790009A65E /* MyFirstProject.xcodeproj */,
 				734B476126D70DD60009A65E /* main.cpp */,
 			);
 			path = "Project 1 - Lab 1.cpp";
+			sourceTree = "<group>";
+		};
+		734B477C26D71E790009A65E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734B478026D71E7A0009A65E /* MyFirstProject */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,12 +126,28 @@
 			mainGroup = 734B475526D70DD50009A65E;
 			productRefGroup = 734B475F26D70DD60009A65E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 734B477C26D71E790009A65E /* Products */;
+					ProjectRef = 734B477B26D71E790009A65E /* MyFirstProject.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				734B475D26D70DD60009A65E /* Project 1 - Lab 1.cpp */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		734B478026D71E7A0009A65E /* MyFirstProject */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = MyFirstProject;
+			remoteRef = 734B477F26D71E7A0009A65E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		734B475A26D70DD60009A65E /* Sources */ = {
